@@ -9,7 +9,7 @@ def login():
     elif usernameEntry.get()=='Tejas' and passwordEntry.get()=='1234':
         messagebox.showinfo('Sucess','Welcome')
         window.destroy()    ## destroys the cuurent window after right details have been entered
-        import sms          #####opens the next window
+        import afterLogin        #####opens the next window
         
         
     else:

@@ -9,7 +9,8 @@ def login():
     elif usernameEntry.get()=='Tejas' and passwordEntry.get()=='1234':
         messagebox.showinfo('Sucess','Welcome')
         window.destroy()    ## destroys the cuurent window after right details have been entered
-        import sms          #####opens the next window
+        import afterLogin
+        #####opens the next window
         
         
     else:
@@ -51,7 +52,6 @@ logoImage = PhotoImage(file='C:\\Users\\TEJAS KENI\\Desktop\\BE project\\Clinic 
 
 logoLabel=Label(LoginFrame,image=logoImage)
 logoLabel.grid(row=0,column=0,columnspan=2,pady=20)
-
 
 
 
